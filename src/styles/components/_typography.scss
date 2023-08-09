@@ -1,0 +1,83 @@
+
+.h1-bold{
+  color: $blue-5;
+  font-family: Intro;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  @include mb-xs{
+    max-width: 225px;
+    margin-bottom: 15px;
+    font-family: Intro;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+  }
+}
+
+.h2-bold{
+  color: $blue-5;
+  font-family: Intro;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+.h3-regular{
+  color: $blue-5;
+  font-family: Intro;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+.h4-book{
+  color: $blue-5;
+  font-family: Intro;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.h5-cards-regular{
+  color: $blue-5;
+  font-family: Intro-Regular;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.body-txt{
+  color:$gray;
+  font-family: Intro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.body-txt2{
+  color: $blue-5;
+  font-family: Intro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.body-txt2-menu{
+  color: $blue-5;
+  font-family: Intro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+}
+.body-money{
+  color: $blue-5;
+  font-family: Intro;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+}

@@ -1,0 +1,46 @@
+
+@font-face {
+  font-family: 'Intro';
+  src: url('font/Intro-Light.ttf');
+  src:local('#'), url('font/Intro-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Intro';
+  src: url('font/Intro-Book.ttf');
+  src:local('#'), url('font/Intro-Book.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Intro';
+  src: url('font/Intro-Book-Italic.eot');
+  src:local('#'), url('font/Intro-Book-Italic.woff') format('woff'), url('font/Intro-Book-Italic.ttf') format('ttf');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Intro';
+  src: url('font/Intro-Regular.ttf');
+  src:local('#'), url('font/Intro-Regular.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Intro-Regular';
+  src: url('font/Intro-Regular.ttf');
+  src:local('#'), url('font/Intro-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Intro';
+  src: url('font/Intro-Bold.ttf');
+  src:local('#'), url('font/Intro-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}

@@ -1,0 +1,100 @@
+
+.header{
+  padding: 8px 32px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 5;
+  background: #F8FAFF;
+  border-bottom: 1px solid rgba(#2B6BF3,0.16);
+  @include mb-xs{
+    padding: 12px 16px;
+
+    &__menu{
+      display: block !important;
+    }
+    &__profile{
+      display: block !important;
+    }
+    &__img{
+      width: 120px;
+      height: 40px;
+      margin-left: 44px;
+      margin-right: 54px;
+    }
+  }
+
+
+
+
+  &__menu{
+    display: none;
+    width: 26px;
+    height: 26px;
+  }
+  &__profile{
+    display: none;
+    width: 26px;
+    height: 26px;
+  }
+
+  &__city{
+    @include mb-xs{
+      display: none;
+    }
+    position: relative;
+    line-height: 24px;
+    padding-left: 22px;
+     &::before{
+      content: '';
+       background-image: url("icon/Pin.svg");
+       position: absolute;
+       width: 16px;
+       height: 16px;
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position: 0 0;
+       top: 50%;
+       transform: translateY(-50%);
+       left: 0;
+     }
+  }
+
+  &__search{
+    @include mb-xs{
+      display: none;
+    }
+    margin-left: 103px;
+    width: 184px;
+    height: 40px;
+  }
+}
+.header-list{
+
+  display: flex;
+  gap: 66px;
+  align-items: center;
+  @include mb-xs{
+ gap: 0px;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.user-menu{
+  @include mb-xs{
+    display: none;
+  }
+  display: flex;
+  gap: 32px;
+  margin-left: 144px;
+  align-items: center;
+  justify-content: center;
+
+}
+.user-menu-list{
+  display: flex;
+  gap: 37px;
+
+}

@@ -1,0 +1,18 @@
+.payment{
+  &__container{
+    @include mb-xs{
+      align-items: center;
+      display: flex;
+      margin-top: 24px;
+      margin-bottom: 0px;
+      flex-direction: column;
+    }
+    margin-top: 92px;
+    margin-bottom: 42px;
+
+  }
+  &__title{
+    text-align: center;
+    margin-bottom: 32px;
+  }
+}

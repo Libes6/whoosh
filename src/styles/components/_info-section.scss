@@ -1,0 +1,140 @@
+
+.info{
+  &__container{
+    @include mb-xs{
+      padding: 47px 16px 10px 16px;
+    }
+    padding: 90px 92px 0px 98px;
+    align-items: center;
+    margin-bottom: 79px;
+   .h4-book{
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 32px;
+   }
+  }
+  &__text-center{
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 780px;
+  }
+  &__text-title{
+    @include mb-xs{
+      padding-left: 47px;
+      padding-right: 48px;
+      margin-bottom: 9px;
+    }
+    margin-bottom: 30px;
+  }
+  .h4-book{
+    color: rgba($blue-5,0.48);
+  }
+  &__card-list{
+ @include mb-xs{
+   gap: 32px;
+   margin: 23px auto -44px;
+   flex-wrap: wrap;
+ }
+    display: flex;
+    gap: 50px;
+    margin: 41px auto 59px;
+    justify-content: center;
+  }
+}
+
+.info-card-wrapper{
+  @include mb-xs{
+    padding: 22px 24px 20px 23px;
+  }
+  width: 300px;
+  height: 280px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  padding: 14px 24px 20px 20px;
+  &__title{
+    //margin-bottom: 17px;
+    @include mb-xs{
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 24px;
+    }
+  }
+  &__label{
+    white-space: pre-line;
+  }
+  &__icon{
+    margin-left: 9px;
+   padding: 16px;
+    border-radius: 100%;
+    background: $white;
+    width: 80px;
+    height: 80px;
+    filter: drop-shadow(0px 8px 16px rgba(43, 107, 243, 0.16));
+    //margin-bottom: 36px;
+  }
+  &__icon-route{
+    position: relative;
+
+   &:after{
+     content: '';
+     background-image: url("icon/Route.svg");
+     position: absolute;
+     top: 50%;
+     right: -110px;
+
+     transform: translateY(-50%);
+     width: 102px;
+     height: 76px;
+   }
+  }
+  &__header{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-bottom: 36px;
+  }
+  &__header-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 31px;
+    margin-bottom: 21px;
+  }
+}
+.info-card-wrapper-bordered{
+
+  @include mb-xs{
+    &:nth-child(2n+2){
+      order: 3;
+    }
+  }
+  background: #F8FAFF;
+  border: 1px solid #C2D2F4 ;
+  &:hover{
+    border: 1px solid #2B6BF3 ;
+  }
+}
+.info-card-wrapper-outlined{
+padding: 0px;
+  .info-card-wrapper__header-reverse{
+
+    gap: 22px;
+  }
+  .info-card-wrapper__title h3-regular{
+
+  }
+  .h3-regular{
+
+  }
+  .info-card-wrapper__icon{
+    margin-left: 0;
+  }
+  .info-card-wrapper__label body-txt{
+    background: #5619ec;
+  }
+  .link-blue{
+    margin-left: 4px;
+  }
+}

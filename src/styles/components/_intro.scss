@@ -1,0 +1,102 @@
+.intro{
+  padding: 78px 0 55px 0;
+  position: relative;
+  background: #F8FAFF;
+  border-radius: 30% 0 2px 30% ;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right -50px top -100px;
+
+  @include mb-xs{
+    padding: 72px 18px 61px 7px;
+    border-radius: 0 ;
+    text-align: center;
+    .h3__regular{
+      font-family: Intro;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+    }
+    .info-card-wrapper-outlined{
+ height: auto;
+    }
+    .info-card-wrapper__header-reverse{
+      align-items: center;
+      gap: 26px;
+      margin-bottom: 21px;
+    }
+    .info__card-list{
+      .info-card-wrapper__icon{
+
+        width: 64px;
+        height: 64px;
+        .icon-w {
+          width: 32px;
+          height: 32px;
+        }
+      }
+    }
+  }
+  &__container{
+
+    &:after{
+      @include mb-xs{
+        background-image: none;
+      }
+      position: absolute;
+      top: -63px;
+      right: 0;
+      width: 220px;
+      height: 504px;
+      content: '';
+
+
+      background-image: url("intro-bg.png");
+      background-size: auto;
+      background-repeat: no-repeat;
+
+      background-position: right 0px top 0px;
+    }
+
+  }
+
+
+
+  &__title{
+    @include mb-xs{
+     margin-left: 63px;
+      margin-bottom: 11px;
+    }
+    text-align: center;
+    margin-bottom: 31px;
+  }
+  &__text{
+    @include mb-xs{
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 32px;
+      max-width: 340px;
+
+      margin-bottom: 38px;
+      p{
+        opacity: 0.48;
+      }
+    }
+    flex-direction: column;
+    max-width: 780px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  &__button-wrapper{
+    @include mb-xs{
+      margin-top: 92px;
+    }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -71px;
+    margin-bottom: 14px;
+  }
+}

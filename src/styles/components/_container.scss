@@ -1,0 +1,10 @@
+
+.container{
+  max-width:1366px;
+  min-width: 360px;
+  margin:0 auto;
+  @include mb-xs{
+    max-width:360px;
+    margin: 0px;
+  }
+}

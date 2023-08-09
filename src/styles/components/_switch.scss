@@ -1,0 +1,140 @@
+.switch-card {
+  @include  mb-xs{
+    height: 56px;
+  }
+  border-radius: 8px;
+  background: #eff4ff;
+margin-bottom: 31px;
+  height: 84px;
+  display: flex;
+
+  &__item {
+    @include mb-xs{
+      width: 100px;
+      height: 56px;
+    }
+    transition: all 0.2s ease-in-out;
+    width: 100px;
+    height: 84px;
+    position: relative;
+    z-index: 10;
+    border: 1px solid #b7c6e7;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    padding: 8px 0;
+    &:last-child {
+      border-radius: 0px 8px 8px 0px;
+    }
+    &:first-child {
+      border-radius: 8px 0px 0px 8px;
+      .switch-card__icon {
+        top: 0;
+        left: 0;
+      }
+    }
+    &:hover{
+      opacity: 0.7;
+    }
+  }
+  .active {
+    border: 2px solid $blue-3;
+    background: $white;
+    .switch-card__label {
+      opacity: 1;
+    }
+  }
+  &__icon {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    align-items: center;
+    top: 0;
+    left: 20px;
+    svg {
+      stroke: #b7c6e7;
+      stroke-width: 0px;
+    }
+  }
+  &__label {
+    @include mb-xs{
+      display: none;
+    }
+    color: $blue-5;
+    opacity: 0.48;
+    text-align: center;
+    font-family: Intro;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+}
+
+.pic-location{
+  display: flex;
+  justify-content: end;
+  margin-bottom: 42px;
+
+  &__content{
+    width: 256px;
+  position: relative;
+    display: flex;
+   flex-direction: column;
+    gap: 34px;
+    &:before{
+      content: "";
+      background-image: url(icon/dahedLine.svg);
+      position: absolute;
+      top: 58%;
+      transform: translateY(-50%);
+      left: -30px;
+      width: 5px;
+      height: 52px;
+    }
+    .pic-location__item{
+      padding-top: 3px;
+      position: relative;
+      &:before{
+        content: '';
+        content: '';
+        background-image: url(icon/PinStart.svg);
+        position: absolute;
+        top: 70%;
+        transform: translateY(-50%);
+        left: -40px;
+        height: 24px;
+        width: 24px;
+      }
+
+      &:last-child{
+
+        &:before{
+          background-image: url(icon/PinEnd.svg);
+        }
+      }
+
+    }
+  }
+}
+
+.send-button-wrapper{
+display: flex;
+  flex-direction: column;
+  gap: 16px;
+ &__clear{
+   display: flex;
+   justify-content: center;
+   gap: 8px;
+   align-items: center;
+   color: $gray;
+
+   svg{
+     stroke-width: 1px;
+     stroke: white;
+     path{
+       fill: $gray;
+     }
+   }
+ }
+}
