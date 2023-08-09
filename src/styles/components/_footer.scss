@@ -45,9 +45,13 @@
     white-space: pre-line;
   }
   &__text-icon {
+    @include mb-xs{
+      margin-left: 63px;
+    }
     width: 230px;
     position: relative;
-    margin-left: 63px;
+    margin-left: 0;
+    //
     &:before {
       position: absolute;
       top: 0;
