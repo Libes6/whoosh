@@ -68,7 +68,7 @@
     &:before{
       content: '';
       align-items: center;
-      background-image: url("icon/Arrow.svg");
+      background-image: url("../assets/Arrow.svg");
       width: 5px;
       height: 8px;
       position: absolute;
@@ -111,7 +111,7 @@
         height: 72px;
       }
       content: '';
-      background-image: url("Button_play.svg");
+      background-image: url("../assets/Button_play.svg");
       transition: all .4s;
       cursor: pointer;
       position: absolute;

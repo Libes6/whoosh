@@ -84,7 +84,7 @@ margin-bottom: 31px;
     gap: 34px;
     &:before{
       content: "";
-      background-image: url(icon/dahedLine.svg);
+      background-image: url(../assets/dahedLine.svg);
       position: absolute;
       top: 58%;
       transform: translateY(-50%);
@@ -98,7 +98,7 @@ margin-bottom: 31px;
       &:before{
         content: '';
         content: '';
-        background-image: url(icon/PinStart.svg);
+        background-image: url(../assets/PinStart.svg);
         position: absolute;
         top: 70%;
         transform: translateY(-50%);
@@ -110,7 +110,7 @@ margin-bottom: 31px;
       &:last-child{
 
         &:before{
-          background-image: url(icon/PinEnd.svg);
+          background-image: url(../assets/PinEnd.svg);
         }
       }
 
