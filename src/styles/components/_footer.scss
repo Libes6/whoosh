@@ -51,7 +51,6 @@
     width: 230px;
     position: relative;
     margin-left: 0;
-    //
     &:before {
       position: absolute;
       top: 0;
@@ -82,10 +81,10 @@
     margin-left: 24px;
     margin-bottom: 63px;
     &:before {
+      content: "";
       position: absolute;
       top: 0;
       left: -24px;
-      content: "";
       width: 12px;
       height: 16px;
       background-image: url("../assets/Pin-fill.svg");
