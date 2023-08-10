@@ -3,16 +3,19 @@
   &__container{
     @include mb-xs{
       padding: 47px 16px 10px 16px;
+
+      .h4-book{
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+      }
     }
     padding: 90px 92px 0px 98px;
     align-items: center;
     margin-bottom: 79px;
-   .h4-book{
-     font-size: 20px;
-     font-style: normal;
-     font-weight: 400;
-     line-height: 32px;
-   }
+
+
   }
   &__text-center{
     text-align: center;
