@@ -54,42 +54,42 @@
   background-position: 0 0;
 }
 .alva{
-  background-image: url("icon/slider/alva.svg");
+  background-image: url("../../assets/alva.svg");
   height: 38px;
   &:hover{
-    background-image: url("icon/slider/alva-hov.svg");
+    background-image: url("../../assets/alva-hov.svg");
   }
 }
 .tendo{
-  background-image: url("icon/slider/tendo.svg");
+  background-image: url("../../assets/tendo.svg");
   height: 54px;
   &:hover{
-    background-image: url("icon/slider/tendo-hov.svg");
+    background-image: url("../../assets/tendo-hov.svg");
   }
 }
 .center{
-  background-image: url("icon/slider/center.svg");
+  background-image: url("../../assets/center.svg");
   height: 57px;
   &:hover{
-    background-image: url("icon/slider/center-hov.svg");
+    background-image: url("../../assets/center-hov.svg");
   }
 }
 .fagor{
-  background-image: url("icon/slider/fagor.svg");
+  background-image: url("../../assets/fagor.svg");
   height: 42px;
   &:hover{
-    background-image: url("icon/slider/fagor-hov.svg");
+    background-image: url("../../assets/fagor-hov.svg");
   }
 }
 .radio{
-  background-image: url("icon/slider/radio.svg");
+  background-image: url("../../assets/radio.svg");
   height: 40px;
   &:hover{
-    background-image: url("icon/slider/radio-hov.svg");
+    background-image: url("../../assets/radio-hov.svg");
   }
 }
 .slider-next{
-  background-image: url("icon/slider/Right.svg");
+  background-image: url("../../assets/Right.svg");
   height: 24px;
   width: 46px;
   background-size: auto;
@@ -98,7 +98,7 @@
   cursor: pointer;
 }
 .slider-prev{
-  background-image: url("icon/slider/Left.svg");
+  background-image: url("../../assets/Left.svg");
   background-size: auto;
   background-repeat: no-repeat;
   background-position: 0 0;
